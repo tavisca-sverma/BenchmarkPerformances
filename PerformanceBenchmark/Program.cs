@@ -99,6 +99,28 @@ namespace PerformanceBenchmark
               }
           }
 
-     
+        [Benchmark]
+        public void StringBuilder()
+        {
+            StringBuilder stringb1 = new StringBuilder("A");
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                stringb1.Append("b");
+            }
+        }
+        [Benchmark]
+        public void String()
+        {
+            String stringb1 = new String("A");
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                stringb1 += "b";
+            }
+        }
+
+
+
     }
 }
