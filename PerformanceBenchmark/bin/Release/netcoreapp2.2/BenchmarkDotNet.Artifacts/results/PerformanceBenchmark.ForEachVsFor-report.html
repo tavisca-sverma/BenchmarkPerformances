@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>PerformanceBenchmark.ForEachVsFor-20190808-110514</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.829 (1803/April2018Update/Redstone4)
+Intel Core i7-6600U CPU 2.60GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+Frequency=2742189 Hz, Resolution=364.6722 ns, Timer=TSC
+.NET Core SDK=2.2.401
+  [Host] : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT  [AttachedDebugger]
+  Core   : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+</code></pre>
+<pre><code>Job=Core  Runtime=Core  
+</code></pre>
+
+<table>
+<thead><tr><th> Method</th><th>N</th><th>   Mean</th><th> Error</th><th> StdDev</th><th> Median</th><th>Ratio</th><th>Rank</th>
+</tr>
+</thead><tbody><tr><td>StringBuilder</td><td>10</td><td>61.00 ns</td><td>2.517 ns</td><td>7.302 ns</td><td>56.76 ns</td><td>1.00</td><td>1</td>
+</tr><tr><td>String</td><td>10</td><td>272.35 ns</td><td>15.206 ns</td><td>44.358 ns</td><td>263.45 ns</td><td>1.00</td><td>1</td>
+</tr><tr><td>StringBuilder</td><td>100</td><td>677.29 ns</td><td>30.566 ns</td><td>89.645 ns</td><td>681.18 ns</td><td>1.00</td><td>1</td>
+</tr><tr><td>String</td><td>100</td><td>3,178.52 ns</td><td>166.469 ns</td><td>490.839 ns</td><td>3,116.52 ns</td><td>1.00</td><td>1</td>
+</tr><tr><td>StringBuilder</td><td>1000</td><td>5,045.98 ns</td><td>260.866 ns</td><td>769.170 ns</td><td>5,015.87 ns</td><td>1.00</td><td>1</td>
+</tr><tr><td>String</td><td>1000</td><td>139,942.63 ns</td><td>6,179.831 ns</td><td>18,221.372 ns</td><td>137,344.88 ns</td><td>1.00</td><td>1</td>
+</tr></tbody></table>
+</body>
+</html>

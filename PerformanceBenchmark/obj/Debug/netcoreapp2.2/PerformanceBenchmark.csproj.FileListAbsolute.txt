@@ -1,0 +1,11 @@
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\bin\Debug\netcoreapp2.2\PerformanceBenchmark.deps.json
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\bin\Debug\netcoreapp2.2\PerformanceBenchmark.runtimeconfig.json
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\bin\Debug\netcoreapp2.2\PerformanceBenchmark.runtimeconfig.dev.json
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\bin\Debug\netcoreapp2.2\PerformanceBenchmark.dll
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.csprojAssemblyReference.cache
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.csproj.CoreCompileInputs.cache
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.AssemblyInfoInputs.cache
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.AssemblyInfo.cs
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\bin\Debug\netcoreapp2.2\PerformanceBenchmark.pdb
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.dll
+C:\Users\sverma\source\repos\PerformanceBenchmark\PerformanceBenchmark\obj\Debug\netcoreapp2.2\PerformanceBenchmark.pdb
